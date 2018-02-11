@@ -15,7 +15,7 @@ int main()
     {
       x = s[i];
       for(int j = 0; s[j] != NULL; j++)
-      {
+      {      
         if(x == s[j])
         {
           count++;
