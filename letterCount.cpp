@@ -1,12 +1,14 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main()
 {
-  char s[10];
+  string s;
   char x;
   int count;
-  cin.getline(s, 10);
+  getline(cin, s);
 
   for(int i = 0; s[i] != NULL; i++)
   {
@@ -15,7 +17,7 @@ int main()
     {
       x = s[i];
       for(int j = 0; s[j] != NULL; j++)
-      {      
+      {
         if(x == s[j])
         {
           count++;
