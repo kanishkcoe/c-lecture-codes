@@ -1,4 +1,6 @@
 #include <iostream>
+#define SIZE 40
+
 
 using namespace std;
 
@@ -17,11 +19,11 @@ int findArray(int a[], int n, int num)
 
 int main()
 {
-  int a[10];
+  int a[SIZE];
   int n;
   int num;
 
-  cout << "Enter the size ( < 10) : "; cin >> n;
+  cout << "Enter the size ( < 40) : "; cin >> n;
 
   for(int i = 0; i < n; i++)
   {

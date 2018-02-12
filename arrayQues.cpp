@@ -17,6 +17,7 @@ int change(int num)
 int main()
 {
   int a[30];
+  int n;
   cin >> n;
 
   for(int i = 0; i < n; i++)
