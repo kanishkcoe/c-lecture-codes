@@ -8,7 +8,6 @@ int main()
   int flag = 1;
   cin.getline(s, 20);
 
-
   for(int i = 0, l = strlen(s) - 1; i < l; i++, l--)
   {
     if(s[i] != s[l])
